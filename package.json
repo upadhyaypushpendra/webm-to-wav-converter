@@ -1,0 +1,27 @@
+{
+  "name": "webm-to-wav-converter",
+  "version": "1.0.1",
+  "description": "JavaScript package to convert audio/webm audio format into audio/wave",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upadhyaypushpendra/webm-to-wav-converter.git"
+  },
+  "keywords": [
+    "wav-converter",
+    "react",
+    "html",
+    "javascript",
+    "webm-to-wav",
+    "audio-convert"
+  ],
+  "author": {
+    "name": "Pushpendra Upadhyay",
+    "email": "pushpendraupadhyay6452@gmail.com",
+    "url": "https://upadhyaypushpendra.github.io/pushpendra.upadhyay/"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/upadhyaypushpendra/webm-to-wav-converter/issues"
+  },
+  "homepage": "https://github.com/upadhyaypushpendra/webm-to-wav-converter#readme"
+}
