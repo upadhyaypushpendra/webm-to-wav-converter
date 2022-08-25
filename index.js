@@ -76,7 +76,9 @@ async function _getAudioBuffer(blobData) {
 
     const arrayBuffer = await response.arrayBuffer();
 
-    const audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer)
+    const audioContext = new AudioContext();
+
+    const audioBuffer = await audioContext.decodeAudioData(arrayBuffer)
 
     return audioBuffer;
 }
