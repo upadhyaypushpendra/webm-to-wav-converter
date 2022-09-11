@@ -1,7 +1,10 @@
 {
   "name": "webm-to-wav-converter",
-  "version": "1.0.1",
-  "description": "JavaScript package to convert audio/webm audio format into audio/wave",
+  "version": "1.1.0",
+  "description": "JavaScript package to record and convert WAV audio",
+  "browser": "index.js",
+  "main": "index.js",
+  "types": "./types",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/upadhyaypushpendra/webm-to-wav-converter.git"
@@ -12,7 +15,11 @@
     "html",
     "javascript",
     "webm-to-wav",
-    "audio-convert"
+    "audio-convert",
+    "wav",
+    "wav-recorder",
+    "js-wav-recorder",
+    "js-wav-converter"
   ],
   "author": {
     "name": "Pushpendra Upadhyay",
@@ -23,5 +30,11 @@
   "bugs": {
     "url": "https://github.com/upadhyaypushpendra/webm-to-wav-converter/issues"
   },
-  "homepage": "https://github.com/upadhyaypushpendra/webm-to-wav-converter#readme"
+  "homepage": "https://github.com/upadhyaypushpendra/webm-to-wav-converter#readme",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  },
+  "scripts": {
+    "prepare": "npx tsc"
+  }
 }
