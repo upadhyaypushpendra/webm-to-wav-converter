@@ -68,11 +68,7 @@ function _writeAudioBufferToArray(
 
 // Converts the Blob data to AudioBuffer
 async function _getAudioBuffer(blobData, contextOptions = undefined) {
-    let blob = blobData;
-
-    if (!(blob instanceof Blob)) blob = new Blob([blobData]);
-
-    const url = URL.createObjectURL(blob);
+    const url = URL.createObjectURL(new Blob(blobData, {type: 'audio/webm' }));
 
     const response = await fetch(url);
 
